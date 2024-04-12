@@ -1,0 +1,92 @@
+body {
+  background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/dJo8lxaEv5FByEP3/fun-philosophy-lessons-for-schools---background-AwvXO0R6Q6hpeXQq.jpg");
+  background-size: cover; /* This ensures that the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: top; /* Centers the image */
+  color: rgb(48, 72, 129);
+  text-align: center;
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.p1 {
+  text-shadow: 2px 2px 4px #90c0ff;
+}
+
+.p2 {
+  margin-top: 95px;
+  text-shadow: 2px 2px 4px #90c0ff;
+}
+
+.forumpage {
+  border-radius: 14px;
+  background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsX29mZmljZV8yNF92aW50YWdlX3BhcGVyX2JhY2tncm91bmRfZWxlZ2FudF9taW5pbWFsX2ZyYV9hYzljZDRlYS00OGEwLTQxZWQtOTQ5My0zMDI3ODc3NTczYjhfMS5qcGc.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 75%;
+  margin-left: 165px;
+  padding: 20px;
+  width: 900px;
+  height: 750px;
+  display: flex;
+  justify-content: center; /* This will center the table horizontally */
+  align-items: center; /*This will center the table vertically, you might want to adjust or remove this depending on your layout*/
+  flex-direction: column;
+}
+
+table {
+  border-collapse: collapse; /* Collapses table borders into a single border */
+  width: 800px; /* Adjust the width as needed */
+  margin-top: 20px; /* Adds some space above the table */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th,
+td {
+  border: 1px solid #dddddd9c; /* Adds a light border to table header and cell */
+  text-align: left; /* Aligns text to the left, change to 'center' if you prefer */
+  padding: 8px; /* Adds padding inside each cell */
+}
+
+th {
+  color: rgba(192, 192, 192, 0.871);
+  background-color: rgba(
+    48,
+    72,
+    129,
+    0.724
+  ); /* Adds a background color to the table header */
+}
+
+.othertopics {
+  margin-top: 120px;
+}
+
+.title {
+  /* Basic styling for your title */
+  font-size: 2rem;
+  color: rgb(48, 72, 129); /* Adjust the color to fit your design */
+
+  /* Glow effect */
+  text-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700,
+    0 0 40px #ffae00, 0 0 70px #ffae00, 0 0 80px #ffae00, 0 0 100px #ffae00,
+    0 0 150px #ffae00;
+}
